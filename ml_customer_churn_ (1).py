@@ -9,7 +9,7 @@ Original file is located at
 
 import warnings
 warnings.filterwarnings("ignore")
-!pip install imbalanced-learn
+
 
 # Data Handling
 import pandas as pd
