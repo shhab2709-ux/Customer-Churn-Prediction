@@ -805,3 +805,7 @@ plt.ylabel("Actual")
 plt.title("Confusion Matrix")
 
 plt.show()
+# Save model
+joblib.dump(model, "iris_model.pkl")
+
+print("Model Saved Successfully!")
